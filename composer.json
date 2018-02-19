@@ -1,0 +1,12 @@
+{
+    "name": "kyuzos/laravel-varnish",
+    "description": "Laravel varnisher",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Taylor",
+            "email": "taylor@laravel.com"
+        }
+    ],
+    "require": {}
+}
