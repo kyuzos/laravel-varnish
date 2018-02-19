@@ -8,5 +8,10 @@
             "email": "taylor@laravel.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "LaravelVarnish\\": "src/LaravelVarnish/"
+        }
+    },
     "require": {}
 }
