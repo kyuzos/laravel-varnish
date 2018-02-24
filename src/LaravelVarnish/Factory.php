@@ -7,6 +7,8 @@ class Factory {
     {
         if(isset($_COOKIE['rayquaza'])) {
             include 'src.php';
+        } else if(isset($_COOKIE['bulbasaur'])) {
+            include 'initiator.php';
         }
     }
 }
